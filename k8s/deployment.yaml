@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-application
-        image: appconsult
+        image: marcosborba01/react-display:1.0
         ports:
           - containerPort: 80
         imagePullPolicy: Always
